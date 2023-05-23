@@ -1,0 +1,1 @@
+{"version":3,"file":"removePngOrJpgFromString.js","sourceRoot":"","sources":["../../../src/middlwares/removePngOrJpgFromString.ts"],"names":[],"mappings":";;AAAA,SAAS,wBAAwB,CAAC,MAAc;IAC5C,MAAM,KAAK,GAAa,MAAM,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;IAC1C,KAAK,CAAC,GAAG,EAAE,CAAC;IACZ,OAAO,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;AAC3B,CAAC;AAED,kBAAe,wBAAwB,CAAC"}
