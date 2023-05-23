@@ -21,8 +21,8 @@ websiteRoutes.post('/tasks', middlwares.validateBody(validationsSchema.taskValid
 
 websiteRoutes.put('/tasks', middlwares.tryCatchWrapper(controllers.updateTask));
 
-websiteRoutes.get('tasks', middlwares.tryCatchWrapper(controllers.getTasks));
+websiteRoutes.get('/tasks', middlwares.tryCatchWrapper(controllers.getTasks));
 
-websiteRoutes.delete('tasks', middlwares.tryCatchWrapper(controllers.deleteTask));
+websiteRoutes.delete('/tasks', middlwares.tryCatchWrapper(controllers.deleteTask));
 
 export default websiteRoutes;
